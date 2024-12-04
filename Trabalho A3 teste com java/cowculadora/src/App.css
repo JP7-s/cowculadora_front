@@ -1,0 +1,38 @@
+/* Configuração global */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #ffffff; /* Fundo branco para todas as páginas */
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Remove rolagem horizontal */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa a altura total da tela */
+}
+
+.main-content {
+  flex: 1; /* Expande para ocupar espaço entre header e footer */
+  padding: 20px;
+  background-color: #ffffff; /* Fundo branco */
+}
+
+/* Footer fixo */
+footer {
+  background-color: #007bff; /* Azul */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto; /* Empurra o footer para o final */
+}
+
+/* Remover rolagem desnecessária */
+body::-webkit-scrollbar {
+  width: 0; /* Remove a barra de rolagem */
+}

@@ -1,0 +1,41 @@
+.lote-detalhes-page {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .lote-detalhes-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .lote-detalhes-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+  }
+  
+  .lote-detalhes-container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .lote-detalhes-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lote-detalhes-container ul li {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  

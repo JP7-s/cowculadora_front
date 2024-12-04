@@ -1,0 +1,60 @@
+.historico-container {
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    background-color: rgb(49, 183, 84);
+  }
+  
+  .historico-container h2 {
+    color: rgb(6, 6, 6);
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .historico-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .historico-item {
+    background-color: rgba(255, 251, 251, 0.9);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .historico-item:hover {
+    background-color: rgba(34, 131, 207, 0.1);
+    transform: scale(1.05);
+  }
+  
+  .historico-item p {
+    margin: 5px 0;
+  }
+  
+  .historico-item button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: rgb(221, 212, 212);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .historico-item button:hover {
+    background-color: darkgreen;
+  }
+  

@@ -1,0 +1,64 @@
+.estoque-medicamentos-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 0px;
+  text-align: center;
+}
+
+.estoque-medicamentos-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.estoque-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.estoque-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.estoque-baixo {
+  border: 2px solid red;
+}
+
+button {
+  margin-top: 1px;
+  padding: 0px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.estoque-footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+}
